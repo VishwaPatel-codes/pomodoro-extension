@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name" : "Focus Mode",
+    "version" : "1.0",
+    "description": "An extension which helps you to focus with the help of its pomodoro timer.",
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    }
+}
