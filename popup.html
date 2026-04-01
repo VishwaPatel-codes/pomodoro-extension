@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus_help🍒</title>
+    <link rel="stylesheet" href="popup.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">    
+</head>
+    <body>
+    <div id="main_pomodoro">
+        <header>
+            <div class="box-1">
+                <div class="left-btn">
+                    <button id="work-btn">Work</button> <!--Timer os 25 mins-->
+                    <button id="break-btn">Break</button> <!--Timer os 5 mins-->
+                </div>            
+                <div class="right-btn">
+                    <button id="theme-toggle">🌙</button>
+                    <div class="toggle-btn">
+                        <button id="timer-btn">Pomodoro</button> <!--takes to timer box-->
+                        <button id="todo-btn">Todo-list</button> <!--takes to todo-list box-->
+                    </div>    
+                </div>
+            </div>
+        </header>
+        <div class="box-2">
+            <div class="main-body">
+                <div class="cherry-img">
+                    <img src="Best Animations.gif" alt="cherry">
+                </div>
+            </div>
+            <div class="main-timer">
+                <div class="time">
+                    <div class="work">
+                        <p>Work</p>
+                    </div>
+                    <div class="timer-display">
+                        <h2 id="timer">25:00</h2>
+                    </div>
+                </div>
+                <div class="pause-button">
+                    <button id="play-pause-btn">▶</button>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="box-3">
+                <h1>Stay Focus</h1>
+            </div>
+        </footer>
+    </div>
+    <div  id="main-todo">
+        <h2>Your To-Do</h2>
+        <button id="add-btn">+</button>
+        <div>
+            <input type="text" id="tast-input" placeholder="Enter your Task">
+            <button id="save-task">+</button>
+        <ul id="task-list"></ul>
+        </div>
+        <footer>
+        <div class="box-3">
+            <h1>Stay Focus</h1>
+        </div>
+        </footer>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
